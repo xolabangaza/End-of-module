@@ -1,0 +1,79 @@
+.form-control{
+    padding-bottom:60px;
+    margin-left: 400px;
+    border-radius: 20px bold;
+    height: 60px;
+
+
+}
+
+.btn-btn-secondary{
+    margin-left: 400px;
+    background-color: bisque;
+}
+
+h1{
+    margin-left: 550px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+/* h2{
+    margin-left: 550px;
+}
+
+h4{
+    margin-left: 420px;
+} */
+
+/* p{
+    margin-left: 440px;
+    color:deeppink;
+}
+
+.pr{
+    color: black;
+} */
+
+.message{
+    margin-left: 400px;
+    width: 608px;
+    height: 200px;
+    border-radius: 4px bold;
+
+}
+
+span{
+
+    color: deeppink;
+}
+
+.home{
+    background-color:bisque
+}
+
+/* .about{
+    width: 100%;
+
+} */
+
+.assets{
+    max-width: 90%;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-text{
+    margin-right: 200px;
+}
+
+.flex-container{
+    background-color:blanchedalmond;
+    color:aqua
+}
+
+footer{
+    margin-top: 10px;
+}
