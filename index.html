@@ -20,7 +20,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary"> 
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./assets/icons/icons8-x-80.png" alt="logo" width="40px" />
@@ -29,29 +29,29 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mb-2">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Education </a>
+              <a class="nav-link" href="#education">Education </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonial</a>
+              <a class="nav-link" href="#testimonial">Testimonial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-
-    <section class="home">
+   <!-- Home section starts -->
+    <section id="home" class="bg-danger-subtle">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -74,9 +74,12 @@
         </div>
       </div>
     </section>
+    <!-- Home section ends -->
 
-    <section class="about">
-      <div class="d-flex justify-content-center mt-5 bg-body-tertiary">
+
+<!-- About section starts -->
+    <section id="about">
+      <div class="d-flex justify-content-center mt-5 bg-body-secondary">
         <div class="p-5">
           <img
             src="/assets/images/C12 C1 Xola Bangaza (2).JPG"
@@ -109,9 +112,12 @@
         </div>
       </div>
     </section>
+    <!-- About section ends -->
+    
+    <!-- Education section starts -->
 
-    <section class="education-experience">
-      <div class="d-flex justify-content-center mt-5 bg-body-tertiary">
+    <section id="education">
+      <div class="d-flex justify-content-center mt-5 bg-body-secondary">
         <div class="p-5 border border-5 rounded-5 border border-info">
           <h3>Education</h3>
           <h4>High School</h4>
@@ -127,12 +133,8 @@
           <ul>
             <li>Currently</li>
           </ul>
-
-          <!-- <p>Harry Gwala high school</p> -->
-          <!-- <p>I started high school in 2018<br>
-            2019>2020>2021>2022<br>finished matric in 2022
-          <br>Currently at Life Choices Academy</p> -->
         </div>
+
         <div class="ms-5 p-5 border border-5 rounded-5 border border-info">
           <h3>Volunteer Experience</h3>
           <p>
@@ -143,7 +145,7 @@
         </div>
       </div>
 
-      <div class="d-flex justify-content-center mt-5 bg-body-tertiary">
+      <div class="d-flex justify-content-center mt-5 bg-body-secondary">
         <div class="ms-5 p-5 border border-5 rounded-5 border border-primary">
           <h3>Hard-Skills</h3>
           <img src="./assets/icons/icons8-bootstrap-48.png" alt="Bootstrap" />
@@ -163,37 +165,53 @@
         </div>
       </div>
     </section>
+    <!-- Education section starts -->
 
-    <section class="projects">
-      <div class="container">
+    <!-- Projects section starts -->
+
+    <section id="projects">
+      <div class="container bg-body-secondary mt-5 mb-4 ">
         <div class="row">
-          <div class="col">
-            <div>
-              <h3>My Projects</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ea
-                error modi odit perferendis, minima quidem hic deserunt quas?
-                Sequi quae blanditiis et nemo minima! Tenetur tempore ad
-                voluptatum temporibus!
-              </p>
-              <a href="#">See more</a>
-            </div>
-            <div>
-              <h3>My Projects</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ea
-                error modi odit perferendis, minima quidem hic deserunt quas?
-                Sequi quae blanditiis et nemo minima! Tenetur tempore ad
-                voluptatum temporibus!
-              </p>
-              <a href="#">See more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          <div class="col-3">
+              <h3 class="d-flex justify-content-center">My Projects</h3>
+              <div class="card" style="width: 500px;">
+                <img src="./assets/images/Screenshot 2023-05-11 122000.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    <a class="btn btn btn-btn-primary bg-body-secondary" href="https://xolabangaza-list.netlify.app">Netlify</a>
+                    <a class="btn btn-btn-primary bg-body-secondary" href="https://github.com/xolabangaza/C12-list">Github</a>
+                  </p>
+                </div>
+              </div>
+              <div class="card" style="width: 500px; d-flex">
+                <img src="./assets/images/Screenshot 2023-05-11 121536.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"> 
+                    <a class="btn btn-btn-primary bg-body-secondary" href="https://sinaye.netlify.app">Netlify</a>
+                    <a class="btn btn-btn-primary bg-body-secondary" href="https://github.com/xolabangaza/HTML-Basics">Github</a>
+                  </p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+             </div>
+            </div> 
+        </div>     
+     </section>
+    <!-- Projects section ends -->
 
-    <section class="testimonial">
+    <!-- Testimonial section starts -->
+
+    <section id="testimonial">
       <h3 class="text-center">Testimonials</h3>
       <div class="d-flex justify-content-center mt-5 bg-body-tertiary">
         <div class="row">
@@ -273,8 +291,11 @@
         </div>
       </div>
     </section>
+    <!-- Testimonial section ends -->
 
-    <section class="contact-form bg-body-secondary">
+    <!-- Contact section start -->
+
+    <section class="contact-form bg-body-secondary" id="contact">
       <form action="https://formspree.io/f/meqwnbdj" method="POST">
         <h1>Get in touch with me</h1>
         <div>
@@ -295,7 +316,7 @@
               placeholder="Your Email"
             />
           </label>
-        </div>
+        </div> 
         <div>
           <label>
             <input
@@ -318,9 +339,10 @@
           <input class="btn-btn-secondary" type="submit" value="talk to me" />
         </div>
       </form>
-    </section>
   </div>
 </div>
+</section>
+<!-- Contact section ends  -->
 
     <footer>
       <a href="https://github.com/xolabangaza" target="blank">
