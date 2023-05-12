@@ -1,3 +1,8 @@
+
+body {
+    overflow-x: hidden ;
+}
+
 .form-control{
     padding-bottom:60px;
     margin-left: 400px;
